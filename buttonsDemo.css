@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(237, 142, 158);
+    background-color: rgb(228, 118, 169);
 }
 .all{
     display: flex;
@@ -10,27 +10,26 @@ body{
   
 }
 .container{
-    background-color: rgb(246, 246, 236);
+    background-color: white;
     display: grid;
     width: 450px; /* or any desired width */
     margin: 250px auto;
-    border-radius: 40px;
+    border-radius: 5px;
 }
 p{
     text-align: center;
-    color: beige;
+    color: white;
     font-size: 20px;
 }
 h2{
     font-size: 40px;
     text-align: center;
-    color: beige;
+    color: white;
 }
 .b1 ,.b2,.b3{
     width: 150px;
     padding: 20px;
     border: none;
-    border-radius: 10px;
     margin: auto;
     display: block;
     margin-top: 20px;
@@ -41,6 +40,7 @@ h2{
 .b1{
     background: linear-gradient(to right, purple, blue);
     color: aliceblue;
+    border-radius: 10px;
 }
 .b1:hover{
     cursor: pointer;
@@ -53,6 +53,7 @@ h2{
     background-color: rgb(211, 81, 103);
     color: white;
     transition: transform 0.3s ease;
+    border-radius: 30px;
 }
 .b2:hover{
     cursor: pointer;
@@ -66,6 +67,7 @@ h2{
     color: rgb(91, 91, 226);
     transition: background-color 0.6s ease;
     margin-bottom: 10px;
+    border-radius: 15px;
 }
 .b3:hover{
     cursor: pointer;
